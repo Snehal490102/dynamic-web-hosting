@@ -6,9 +6,6 @@ app.get('/',(req,res)=>{
     res.send("Hey Snehal,Here is the Dynamic Website.")
 })
 
-app.get('/login',(req,res)=>{
-    res.send("Login Here.")
-})
 
 app.listen(port,()=>{
     console.log(`Server is running on port ${port}`);
